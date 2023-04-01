@@ -41,12 +41,6 @@ ul[data-list-id='guildsnav'] ::-webkit-scrollbar {
 	animation-timing-function: ease-in-out;
 }
 
-div[data-list-item-id="guildsnav___home"] {
-	background: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_light-theme.png')
-		center/contain no-repeat;
-	background-size: cover;
-}
-
 @keyframes spin {
   0% {
     transform: rotateY(0deg);
