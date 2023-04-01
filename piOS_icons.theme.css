@@ -39,6 +39,6 @@ Join Salt's Discord Themes server: https://discord.gg/uy8nKQVatp
     --crt-flicker: none;            /* CRT monitor overlay flickering. Values: flicker (on) or none (off) */
 }
 #app-mount [data-list-item-id="guildsnav___home"]>div {
-	content: url('https://raw.githubusercontent.com/NotGod15/zzzz/main/ce38895ce8d7aebe0b651277c8c7dad43b325628.png') center/contain no-repeat; /* Changeable Icon. Format: url('Your_Uploaded_IMG_path') */
+	content: url('https://raw.githubusercontent.com/NotGod15/zzzz/main/ce38895ce8d7aebe0b651277c8c7dad43b325628.png'); /* Changeable Icon. Format: url('Your_Uploaded_IMG_path') */
   	animation-name: spin;											/* Spin animation, Values: spin(on) or none(off) */
 }
