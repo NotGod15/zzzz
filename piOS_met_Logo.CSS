@@ -222,8 +222,7 @@ ul[data-list-id='guildsnav'] ::-webkit-scrollbar {
 }
 
 #app-mount [data-list-item-id="guildsnav___home"]>div {
-	content: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_light-theme.png');
-	width: 57px;
+	width: 48px;
 	height: 48px;
 	background-color: transparent;
 	back
