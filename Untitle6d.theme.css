@@ -1,41 +1,32 @@
-.tutorialContainer-1pL9QS .wrapper-3kah-n,
-.tutorialContainer-1pL9QS .svg-2ifYOU {
-  height: 57px;
-  width: 48px;
+.da-guilds {
+  padding-left: 0;
 }
-.tutorialContainer-1pL9QS .svg-2ifYOU {
-  animation-name: y-spin;
+.da-guilds > .guild-1EfMGQ:nth-child(1) {
+  width: 57px;
+  height: 48px;
+  background-color: transparent;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  animation-name: spin;
   animation-duration: 4s;
-  animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
-.tutorialContainer-1pL9QS .svg-2ifYOU foreignobject svg * {
-  fill: none !important;
+.da-guilds > .guild-1EfMGQ:nth-child(1).selected-ML3OIq,
+.da-guilds > .guild-1EfMGQ:nth-child(1):hover {
+  border-color: transparent;
+  animation: none;
 }
-
-@keyframes y-spin {
-  0% {
-    transform: rotateY(0deg);
-  }
-  100% {
-    transform: rotateY(360deg);
-  }
+.da-guilds > .guild-1EfMGQ:nth-child(1) .da-guildInner::before {
+  background-color: transparent;
 }
-.iconSize-Ai8Wtu {
-  -webkit-mask: url("https://discord.com/assets/c30220448097b064286a8759a9b6c4af.svg");
-          mask: url("https://discord.com/assets/c30220448097b064286a8759a9b6c4af.svg");
-  background: var(--color-alert) !important;
+.da-guilds > .guild-1EfMGQ:nth-child(1) a {
+  background-image: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_light-theme.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
-  background-color: var(--color-alert) !important;
-}
-
-.iconBadge-2wi9r4.participating-NBGDkr,
-.iconBadge-3Mmg92 {
-  background-color: var(--color-alert);
-}
-
-.strikethrough-2Kl6HF {
-  color: var(--color-alert);
+.da-guilds > .guild-1EfMGQ:nth-child(1) svg {
+  display: none;
 }
