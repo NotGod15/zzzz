@@ -1,6 +1,24 @@
+.da-appMount {
+  background: url("https://i.imgur.com/PmYI9Mu.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .da-guilds {
   padding-left: 0;
 }
+
+.da-guilds > .guild-1EfMGQ {
+  height: 35px;
+  overflow: hidden;
+  width: 100%;
+  background: #c8c2aa;
+  border: 1px solid transparent;
+  margin-top: 15px;
+  transition: all 0.2s;
+}
+
 .da-guilds > .guild-1EfMGQ:nth-child(1) {
   width: 57px;
   height: 48px;
