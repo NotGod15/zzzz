@@ -16,7 +16,7 @@
 	--vaccentcolor-hover: rgb(var(--accent));
 	--vaccentcolor-active: rgb(var(--accent));
 }
-
+/* Guilds */
 ul[data-list-id='guildsnav'] {
 	--background-secondary: var(--background-solid);
     	--background-primary: rgba(var(--white), 0.1);
@@ -68,30 +68,38 @@ span[class^="expandedFolderBackground-"] {
 	height: 40px;
 }
 
-div[data-list-item-id="guildsnav___home"] {
-	background: var(--home-image) top center/110% no-repeat;
-}
+
 
 div[class^="unreadMentionsIndicatorBottom-"] {
 	bottom: 70px;
 }
 
 #app-mount [data-list-item-id="guildsnav___home"]>div {
-	color: transparent;
+	width: 57px;
+	height: 48px;
 	background-color: transparent;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	animation-name: spin;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
 }
 
-div[data-list-item-id="guildsnav___create-join-button"],
-div[data-list-item-id="guildsnav___guild-discover-button"] {
-	transition: 150ms ease;
-	opacity: 0.5;
-	background-color: var(--background-solid) !important;
-	color: rgba(var(--white), 0.3) !important;
-	border: 1px dashed rgba(var(--white), 0.3);
-	border-radius: 50px;
+div[data-list-item-id="guildsnav___home"] {
+	background: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_light-theme.png')
+		center/contain no-repeat;
 }
 
-div[data-list-item-id="guildsnav___create-join-button"]:hover,
-div[data-list-item-id="guildsnav___guild-discover-button"]:hover {
-	opacity: 1;
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
 }
+
+
