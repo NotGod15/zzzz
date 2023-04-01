@@ -212,11 +212,6 @@ tertiary-1e-lAP:hover:not(.disabled-184-il){background-color:var(--background-mo
 infinite}.layerContainer-2lfOPe:has(.wrapper-rWtXPd){z-index:100000}@keyframes flicker{0%{background-color:rgba(0,0,0,0)}100%{background-color:rgba(0,0,0,.1)
 }}@keyframes scanline{0%{top:100%}}.PronounDB-pronouns-text{color:var(--text-muted);line-height:1.375rem;margin:0 .25rem}.pronoun-db-dot{display:none}
 
-/* Guilds */
-ul[data-list-id='guildsnav'] {
-	
-}
-
 #app-mount [data-list-item-id="guildsnav___home"]>div {
 	width: 48px;
 	height: 48px;
