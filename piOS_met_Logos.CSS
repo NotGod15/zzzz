@@ -217,10 +217,6 @@ ul[data-list-id='guildsnav'] {
 	
 }
 
-ul[data-list-id='guildsnav'] ::-webkit-scrollbar {
-	display: none;
-}
-
 #app-mount [data-list-item-id="guildsnav___home"]>div {
 	width: 48px;
 	height: 48px;
