@@ -37,12 +37,13 @@ ul[data-list-id='guildsnav'] ::-webkit-scrollbar {
 	animation-duration: 4s;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
+	color: transparent;
 }
 
 div[data-list-item-id="guildsnav___home"] {
 	background: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_light-theme.png')
 		center/contain no-repeat;
-}file:///C:/Users/deanm/Downloads/piOS.theme.css
+}
 
 @keyframes spin {
   0% {
